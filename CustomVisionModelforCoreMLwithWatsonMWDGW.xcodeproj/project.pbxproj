@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		400A2C08A48943369FC53D69 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 39E558DE558B40C08C698677 /* LICENSE */; };
-		48D3E4F861E845DD94E0598E /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = DE8690C576F84FE182CC594D /* .gitignore */; };
-		55EA46A8D7F24BE6822B1CE2 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6381F87B6C914EB9B0A19B38 /* BMSCredentials.plist */; };
 		2D7870C11FE1CF6F0018BFE9 /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7870C01FE1CF6F0018BFE9 /* PulleyPassthroughScrollView.swift */; };
 		2D7870C31FE1CF910018BFE9 /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7870C21FE1CF910018BFE9 /* PulleyViewController.swift */; };
 		2D7870C51FE1CFDE0018BFE9 /* UIView+constrainToParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7870C41FE1CFDE0018BFE9 /* UIView+constrainToParent.swift */; };
@@ -21,6 +18,7 @@
 		2DC5F13B1FD608D20063B2D5 /* ImageDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F13A1FD608D20063B2D5 /* ImageDisplayViewController.swift */; };
 		2DC5F13D1FD609050063B2D5 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F13C1FD609050063B2D5 /* ResultsTableViewController.swift */; };
 		2DC5F13F1FD6093B0063B2D5 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F13E1FD6093B0063B2D5 /* ResultsTableViewCell.swift */; };
+		55EA46A8D7F24BE6822B1CE2 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6381F87B6C914EB9B0A19B38 /* BMSCredentials.plist */; };
 		5C702D79D113C37CA86C96DB /* Pods_CustomVisionModelforCoreMLwithWatsonMWDGW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87DA3B4812540A34B9E54AC /* Pods_CustomVisionModelforCoreMLwithWatsonMWDGW.framework */; };
 		E36AA4E7204DA729008F4719 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36AA4E6204DA729008F4719 /* Utils.swift */; };
 		E38D3608205C292B00D96311 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E38D3607205C292B00D96311 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -43,9 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		39E558DE558B40C08C698677 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		DE8690C576F84FE182CC594D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		6381F87B6C914EB9B0A19B38 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		2D7870C01FE1CF6F0018BFE9 /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
 		2D7870C21FE1CF910018BFE9 /* PulleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyViewController.swift; sourceTree = "<group>"; };
 		2D7870C41FE1CFDE0018BFE9 /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constrainToParent.swift"; sourceTree = "<group>"; };
@@ -61,6 +56,7 @@
 		2DC5F13E1FD6093B0063B2D5 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		3C898A82FC1C68D9BB89C5C5 /* Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.release.xcconfig"; sourceTree = "<group>"; };
 		5F8D2CAFB63E443F0CFEF761 /* Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW.debug.xcconfig"; sourceTree = "<group>"; };
+		6381F87B6C914EB9B0A19B38 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		E36AA4E6204DA729008F4719 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E38D3607205C292B00D96311 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		E3AC1937204126FC00415006 /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
@@ -242,10 +238,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW/Pods-CustomVisionModelforCoreMLwithWatsonMWDGW-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

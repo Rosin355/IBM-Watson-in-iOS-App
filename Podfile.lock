@@ -1,0 +1,18 @@
+PODS:
+  - BMSAnalyticsAPI (2.2.3)
+  - BMSCore (2.3.5):
+    - BMSAnalyticsAPI (~> 2.2)
+  - SwiftSpinner (1.5.0)
+
+DEPENDENCIES:
+  - BMSCore (~> 2.0)
+  - SwiftSpinner (~> 1.5.0)
+
+SPEC CHECKSUMS:
+  BMSAnalyticsAPI: d259379069bb11d2ff365bf5b796a2677dfc3849
+  BMSCore: 446c16a7dbe14b5019751617a00dd947c65cca82
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+
+PODFILE CHECKSUM: 2274dd399b750e290e44fc6b337c2c4776476fc2
+
+COCOAPODS: 1.3.1
